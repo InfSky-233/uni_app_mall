@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}, {
+			"path": "pages/cart/cart",
+			"style": {}
+		}, {
+			"path": "pages/member/member",
+			"style": {}
+		}, {
+			"path": "pages/news/news",
+			"style": {}
+		}, {
+			"path": "components/goods/goods_list",
+			"style": {}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/contact/contact",
+			"style": {}
+		}, {
+			"path": "pages/picas/picas",
+			"style": {
+				"navigationBarTitleText":"社区图片"
+			}
+		}, {
+			"path": "pages/videos/videos",
+			"style": {}
+		}
+	    ,{
+            "path" : "components/newslist/newslist",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "在远方",
+		"navigationBarBackgroundColor": "#c41d01",
+		"backgroundColor": "#ffffff",
+		"onReachBottomDistance": 60
+	},
+	"tabBar": {
+		"selectedColor": "#c41d01",
+		"color": "#cccccc",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"text": "新闻",
+				"pagePath": "pages/news/news",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart-active.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-active.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

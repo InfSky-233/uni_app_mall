@@ -1,0 +1,1 @@
+<view><image src="../../static/about.png"></image><view class="top">关于我们</view><view data-event-opts="{{[['tap',[['callphone',['$event']]]]]}}" class="com tel" bindtap="__e">联系电话：400 123 1234</view><view class="com addrs">公司地址：重庆市渝中区接圣街8号（来福士）</view><map latitude="{{latitude}}" longitude="{{longitude}}" scale="17" markers="{{covers}}"></map></view>
